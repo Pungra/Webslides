@@ -147,34 +147,39 @@
           </div>
           <!-- end .card-50-->
         </section> 
-          <section class="bg-black aligncenter">
-          <span class="background dark" style="background-image:url('https://source.unsplash.com/CxYHfBkC0vs/')"></span>
+       <section>
+          <!--.wrap = container (width: 90%) -->
           <div class="wrap">
-            <h1 class="text-landing">Forms</h1>
+            <div class="grid vertical-align">
+              <div class="column">
+                <h3><strong>WebSlides is really easy</strong></h3>
+                <p class="text-intro">Each parent <code>&lt;section&gt;</code> in the #webslides element is an individual slide. </p>
+                <p>Code looks superb. It uses <strong>intuitive markup with popular naming conventions</strong>. There's no need to overuse classes or nesting. Just focus on your ideas. <strong>Based on <a href="https://github.com/jennschiffer/SimpleSlides">SimpleSlides</a>, by <a href="http://jennmoney.biz">Jenn Schiffer</a></strong> :)</p>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <pre>&lt;article id="webslides"&gt;
+  <span class="code-comment">&lt;!-- Slide 1 --&gt;</span>
+  &lt;section&gt;
+    &lt;h1&gt;Design for trust&lt;/h1&gt;
+  &lt;/section&gt;
+  <span class="code-comment">&lt;!-- Slide 2 --&gt;</span>
+  &lt;section class="bg-primary"&gt;
+    &lt;div class="wrap"&gt;
+      &lt;h2&gt;.wrap = container (width: 90%) with fadein&lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/article&gt;
+</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+            <hr>
+            <p class="aligncenter">Vertical sliding? <code>&lt;article id="webslides" class="vertical"&gt;</code></p>
           </div>
           <!-- .end .wrap -->
         </section>
-<div id="revue-embed">
-  <form action="http://updates.pungra.fit/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-  <div class="revue-form-group">
-    <label for="member_email">Email address</label>
-    <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
-  </div>
-  <div class="revue-form-group">
-    <label for="member_first_name">First name <span class="optional">(Optional)</span></label>
-    <input class="revue-form-field" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name">
-  </div>
-  <div class="revue-form-group">
-    <label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
-    <input class="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name">
-  </div>
-  <div class="revue-form-actions">
-    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit">
-  </div>
-  <div class="revue-form-footer">By subscribing, you agree with Revue’s <a target="_blank" href="https://www.getrevue.co/terms">Terms</a> and <a target="_blank" href="https://www.getrevue.co/privacy">Privacy Policy</a>.</div>
-  </form>
-</div>
-
   <section class="aligncenter">
           <!-- .wrap = container (width: 90%) -->
           <div class="wrap">
